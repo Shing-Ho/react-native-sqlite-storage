@@ -18,17 +18,17 @@ import java.util.Collections;
 
 import java.util.List;
 
-public class SQLitePluginPackage implements ReactPackage {
+public class SQLitePluginPackageBefore implements ReactPackage {
 
     /**
      * @deprecated, use method without activity
      * activity parameter is ignored
      */
-    public SQLitePluginPackage(Activity activity){
+    public SQLitePluginPackageBefore(Activity activity){
         this();
     }
 
-    public SQLitePluginPackage() {
+    public SQLitePluginPackageBefore() {
     }
 
     @Override
